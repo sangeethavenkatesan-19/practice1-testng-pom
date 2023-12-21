@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eCom Webapp Test Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Redbus Test">
+		<classes>
+			<class name="Redbus.Homepage"></class>
+			<class name=""></class>
+			<class name=""></class>
+		</classes>
+	</test>
+	<test name="Attribute Test">
+		<classes>
+			<class name="Phase2.Selenium_TestNG.AttributeTest"></class>
+		</classes>
+	</test>
+	<test name="Other Test">
+		<classes>
+			<class name="Phase2.Selenium_TestNG.AssertionTest"></class>
+			<class name="Phase2.Selenium_TestNG.Standard_Annotations"></class>
+		</classes>
+	</test>
+</suite>
